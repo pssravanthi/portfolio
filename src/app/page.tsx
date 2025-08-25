@@ -31,7 +31,13 @@ const navItems = [
   { id: 'certifications', label: 'Certifications' },
 ];
 
-export default function Home() {
+export default function Home({
+  params,
+  searchParams,
+}: {
+  params: {};
+  searchParams: { [key: string]: string | string[] | undefined };
+}) {
   const [activeSection, setActiveSection] = useState('about');
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
