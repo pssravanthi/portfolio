@@ -63,7 +63,7 @@ const Header = () => {
                     <Button size="lg" onClick={handleScrollToExperience}>
                        Explore My Journey <ChevronDown className="ml-2 h-5 w-5"/>
                     </Button>
-                    <a href={profileData.resumeUrl} download="Sai_Sravanthi_Ponigate.pdf">
+                    <a href={profileData.resumeUrl} download="Sai Sravanthi Ponigate.docx">
                         <Button size="lg" variant="outline">
                            Download Resume <Download className="ml-2 h-5 w-5"/>
                         </Button>

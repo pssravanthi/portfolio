@@ -5,7 +5,7 @@ export const profileData = {
   phone: '(614) 636-1316',
   github: 'https://github.com/pssravanthi',
   linkedin: 'https://www.linkedin.com/in/ponigatesai/',
-  resumeUrl: '/Sai_Sravanthi_Ponigate.pdf',
+  resumeUrl: '/Sai Sravanthi Ponigate.docx',
 };
 
 export const aboutMe = {
