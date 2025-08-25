@@ -20,26 +20,8 @@ export const projectsData = [
         technologies: ['React', 'React Router', 'CSS', 'TMDb API'],
         githubUrl: 'https://github.com/pssravanthi/movie-app-example',
         liveUrl: null,
-        image: '/project-movie-app.png',
+        image: '/movie-app-screenshot.png',
         aiHint: 'movie posters collage'
-    },
-    {
-        title: 'FHB Participant Portal',
-        description: 'A high-traffic internal portal for Phone Associates to manage Fidelity Health & Wellness participants. Features robust search functionality and real-time data streaming for instant updates on participant eligibility.',
-        technologies: ['Angular 17', 'Java 17', 'Spring Boot', 'Azure', 'Kubernetes'],
-        githubUrl: null,
-        liveUrl: null,
-        image: '/project-enterprise-dashboard.png',
-        aiHint: 'corporate dashboard charts'
-    },
-    {
-        title: 'Customer Experience Platform',
-        description: 'A modernized, cloud-native microservices platform for Citi. This digital transformation project focused on enhancing the frontend user experience and building a scalable backend for financial transactions.',
-        technologies: ['React.js', 'Redux', 'Java 17', 'Spring Boot', 'AWS', 'PostgreSQL'],
-        githubUrl: null,
-        liveUrl: null,
-        image: '/project-finance-platform.png',
-        aiHint: 'financial technology interface'
     }
 ];
 

@@ -18,7 +18,7 @@ const Projects = () => {
           <CardHeader>
             <div className="relative h-48 w-full mb-4 rounded-md overflow-hidden">
                 <Image
-                  src={`https://picsum.photos/seed/${project.title.replace(/\s/g, '')}/600/400`}
+                  src={project.image}
                   alt={project.title}
                   layout="fill"
                   objectFit="cover"
