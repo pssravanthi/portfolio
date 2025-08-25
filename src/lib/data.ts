@@ -20,7 +20,7 @@ export const projectsData = [
         technologies: ['React', 'React Router', 'CSS', 'TMDb API'],
         githubUrl: 'https://github.com/pssravanthi/App',
         liveUrl: null,
-        image: '/movie-app-screenshot.png',
+        image: '/pic.png',
         aiHint: 'movie posters collage'
     }
 ];
