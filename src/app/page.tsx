@@ -102,7 +102,7 @@ export default function Home({
   return (
     <div className="bg-background text-foreground font-body">
       {/* Main Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-muted/90 backdrop-blur-sm border-b">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
           <a href="#" onClick={() => handleNavLinkClick('about')}>
             <h1 className="text-2xl font-bold font-headline text-primary">
