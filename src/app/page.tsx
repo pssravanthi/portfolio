@@ -11,6 +11,7 @@ import {
   Phone,
   Linkedin,
   Palette,
+  Lightbulb,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -20,10 +21,12 @@ import Experience from '@/components/portfolio/Experience';
 import Skills from '@/components/portfolio/Skills';
 import { profileData } from '@/lib/data';
 import Certifications from '@/components/portfolio/Certifications';
+import Projects from '@/components/portfolio/Projects';
 
 const navItems = [
   { id: 'about', label: 'About' },
   { id: 'experience', label: 'Experience' },
+  { id: 'projects', label: 'Projects' },
   { id: 'skills', label: 'Skills' },
   { id: 'certifications', label: 'Certifications' },
 ];
@@ -136,6 +139,13 @@ export default function Home() {
               <Briefcase className="w-8 h-8"/> Professional Experience
             </h2>
             <Experience />
+          </section>
+
+          <section id="projects">
+            <h2 className="text-3xl md:text-4xl font-bold font-headline mb-12 text-center text-primary flex items-center justify-center gap-4">
+              <Lightbulb className="w-8 h-8"/> Side Projects
+            </h2>
+            <Projects />
           </section>
 
           <section id="skills">

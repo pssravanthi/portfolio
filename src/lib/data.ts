@@ -13,6 +13,36 @@ export const aboutMe = {
   motto: 'Code with purpose, build for impact.',
 };
 
+export const projectsData = [
+    {
+        title: 'Movie Discovery App',
+        description: 'A React-based web application for discovering and searching for movies using The Movie Database (TMDb) API. Features include viewing popular movies, searching for specific titles, and managing a personal list of favorite movies using browser local storage.',
+        technologies: ['React', 'React Router', 'CSS', 'TMDb API'],
+        githubUrl: 'https://github.com/pssravanthi/movie-app-example',
+        liveUrl: null,
+        image: '/project-movie-app.png',
+        aiHint: 'movie posters collage'
+    },
+    {
+        title: 'FHB Participant Portal',
+        description: 'A high-traffic internal portal for Phone Associates to manage Fidelity Health & Wellness participants. Features robust search functionality and real-time data streaming for instant updates on participant eligibility.',
+        technologies: ['Angular 17', 'Java 17', 'Spring Boot', 'Azure', 'Kubernetes'],
+        githubUrl: null,
+        liveUrl: null,
+        image: '/project-enterprise-dashboard.png',
+        aiHint: 'corporate dashboard charts'
+    },
+    {
+        title: 'Customer Experience Platform',
+        description: 'A modernized, cloud-native microservices platform for Citi. This digital transformation project focused on enhancing the frontend user experience and building a scalable backend for financial transactions.',
+        technologies: ['React.js', 'Redux', 'Java 17', 'Spring Boot', 'AWS', 'PostgreSQL'],
+        githubUrl: null,
+        liveUrl: null,
+        image: '/project-finance-platform.png',
+        aiHint: 'financial technology interface'
+    }
+];
+
 export const experienceData = [
   {
     role: 'Senior Software Engineer',
