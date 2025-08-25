@@ -149,7 +149,7 @@ export default function Home({
 
           <section id="projects">
             <h2 className="text-3xl md:text-4xl font-bold font-headline mb-12 text-center text-primary flex items-center justify-center gap-4">
-              <Lightbulb className="w-8 h-8"/> Side Projects
+              <Lightbulb className="w-8 h-8"/> Projects
             </h2>
             <Projects />
           </section>
