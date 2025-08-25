@@ -15,7 +15,7 @@ export const aboutMe = {
 
 export const projectsData = [
     {
-        title: 'Movie Discovery App',
+        title: 'Movie App',
         description: 'A React-based web application for discovering and searching for movies using The Movie Database (TMDb) API. Features include viewing popular movies, searching for specific titles, and managing a personal list of favorite movies using browser local storage.',
         technologies: ['React', 'React Router', 'CSS', 'TMDb API'],
         githubUrl: 'https://github.com/pssravanthi/App',
